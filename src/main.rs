@@ -7,7 +7,7 @@ mod scraper;
 
 fn main() -> Result<(), Box<dyn std::error::Error>> {
     let matches = App::new("Rule34 Scraper")
-        .version("0.1")
+        .version("1.0")
         .about("Scrapes explicit images from a list of sites")
         .arg(Arg::with_name("site")
                 .short("s")
